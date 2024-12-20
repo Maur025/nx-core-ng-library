@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@core-ng-library/core-keycloak-maur025": [
+        "libs/core-keycloak-maur025/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
